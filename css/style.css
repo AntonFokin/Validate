@@ -1,0 +1,17 @@
+/* .wrong{
+    border-bottom: 1px solid red !important;
+}
+.success{
+	border-bottom: 1px solid green !important;
+} */
+.wrong{
+	border-bottom: 1px solid red !important;
+}
+.wrong:focus {
+   border-bottom: 0px solid red !important;
+   box-shadow: 0 1px 0 0 red !important
+}
+.success:focus {
+   border-bottom: 0px solid #26a69a  !important;
+   box-shadow: 0 1px 0 0 #26a69a  !important
+}
